@@ -1,0 +1,1113 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 7, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 32, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+body {
+  line-height: 1; }
+
+/* line 35, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+ol, ul {
+  list-style: none; }
+
+/* line 38, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+blockquote, q {
+  quotes: none; }
+
+/* line 41, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 46, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 5, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+html, body {
+  height: 100%;
+  font-weight: 400; }
+
+/* set up classes for jeet grid */
+/* line 11, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-1 {
+  float: left;
+  clear: none;
+  width: 6.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-1:last-child {
+    margin-right: 0; }
+
+/* line 14, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-2 {
+  float: left;
+  clear: none;
+  width: 15.0%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-2:last-child {
+    margin-right: 0; }
+
+/* line 17, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-3 {
+  float: left;
+  clear: none;
+  width: 23.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-3:last-child {
+    margin-right: 0; }
+
+/* line 20, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-4 {
+  float: left;
+  clear: none;
+  width: 32.0%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-4:last-child {
+    margin-right: 0; }
+
+/* line 23, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-5 {
+  float: left;
+  clear: none;
+  width: 40.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-5:last-child {
+    margin-right: 0; }
+
+/* line 26, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-6 {
+  float: left;
+  clear: none;
+  width: 49%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-6:last-child {
+    margin-right: 0; }
+
+/* line 29, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-7 {
+  float: left;
+  clear: none;
+  width: 57.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-7:last-child {
+    margin-right: 0; }
+
+/* line 32, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-8 {
+  float: left;
+  clear: none;
+  width: 66.0%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-8:last-child {
+    margin-right: 0; }
+
+/* line 35, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-9 {
+  float: left;
+  clear: none;
+  width: 74.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-9:last-child {
+    margin-right: 0; }
+
+/* line 38, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-10 {
+  float: left;
+  clear: none;
+  width: 83%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-10:last-child {
+    margin-right: 0; }
+
+/* line 41, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-11 {
+  float: left;
+  clear: none;
+  width: 91.5%;
+  margin-left: 0;
+  margin-right: 2%; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-11:last-child {
+    margin-right: 0; }
+
+/* line 44, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.col-12 {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 2%;
+  margin-right: 0; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .col-12:last-child {
+    margin-right: 0; }
+
+/* line 48, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.edge {
+  margin-right: 0; }
+
+/* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.page {
+  position: relative;
+  min-height: 100%;
+  margin-bottom: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px; }
+  /* line 62, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  .page:after {
+    content: "";
+    display: block; }
+  @media (min-width: 1200px) {
+    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .page {
+      padding: 30px 40px 60px 40px; } }
+  @media (min-width: 801px) and (max-width: 1199px) {
+    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .page {
+      padding: 30px 5% 60px 5%; } }
+  @media (max-width: 800px) {
+    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .page {
+      padding: 20px 5% 60px 5%; } }
+
+/* line 76, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.clear {
+  clear: both; }
+
+/* line 80, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.nav {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow: hidden; }
+
+/* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.nav__name {
+  letter-spacing: 0.6px;
+  font-size: 20px;
+  text-decoration: none; }
+  /* line 90, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  .nav__name:hover {
+    color: #343531; }
+  @media (max-width: 412px) {
+    /* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .nav__name {
+      text-align: center;
+      display: block;
+      margin-bottom: 12px; } }
+  @media (min-width: 413px) {
+    /* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .nav__name {
+      float: left; } }
+
+/* line 102, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.nav__list {
+  list-style: none;
+  margin-top: 1px;
+  text-align: right; }
+  @media (max-width: 412px) {
+    /* line 102, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .nav__list {
+      text-align: center; } }
+
+/* line 110, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.nav__item {
+  display: inline-block;
+  margin-left: 20px; }
+
+/* line 114, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.nav__link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #C4C2C2;
+  transition: color 0.15s ease-in-out; }
+  /* line 120, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  .nav__link.active {
+    color: #343531; }
+    /* line 122, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    .nav__link.active:hover {
+      color: #343531; }
+  /* line 126, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  .nav__link:hover {
+    color: #fcb41d; }
+
+/* line 130, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.footer, .page:after {
+  height: 60px; }
+
+/* line 133, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-top: 20px; }
+
+/* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  color: #343531; }
+
+/* line 6, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300; }
+
+/* line 12, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+a {
+  text-decoration: none;
+  color: #343531;
+  font-weight: 500; }
+  /* line 17, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+  a:hover {
+    transition: color 0.15s ease-in-out;
+    color: #FFAD00; }
+
+/* line 23, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+h1 {
+  letter-spacing: 0.9px;
+  font-size: 44px;
+  font-weight: 600; }
+  @media (max-width: 800px) {
+    /* line 23, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+    h1 {
+      font-size: 30px;
+      letter-spacing: 0.7px; } }
+
+/* line 33, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+h2 {
+  font-size: 22px;
+  font-weight: 600; }
+  @media (max-width: 800px) {
+    /* line 33, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+    h2 {
+      font-size: 20px;
+      letter-spacing: 0.4px; } }
+
+/* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+h3 {
+  font-weight: 600; }
+  @media (max-width: 800px) {
+    /* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+    h3 {
+      font-size: 18px; } }
+  @media (min-width: 801px) and (max-width: 939px) {
+    /* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+    h3 {
+      font-size: 20px; } }
+  @media (min-width: 940px) {
+    /* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
+    h3 {
+      font-size: 18px; } }
+
+/* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.hero {
+  margin-top: 100px; }
+  @media (max-width: 800px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .hero {
+      float: left;
+      clear: none;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 2%;
+      max-width: 430px;
+      margin-top: 70px; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .hero:last-child {
+        margin-right: 0; } }
+  @media (min-width: 801px) and (max-width: 1199px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .hero {
+      float: left;
+      clear: none;
+      width: 49%;
+      margin-left: 0;
+      margin-right: 2%; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .hero:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1200px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .hero {
+      float: left;
+      clear: none;
+      width: 57.5%;
+      margin-left: 0;
+      margin-right: 2%; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .hero:last-child {
+        margin-right: 0; } }
+
+/* line 15, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.hero__name {
+  margin-bottom: 10px; }
+
+/* line 18, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.projects {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .projects:last-child {
+    margin-right: 0; }
+  @media (max-width: 800px) {
+    /* line 18, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .projects {
+      margin-top: 100px;
+      margin-bottom: 70px; } }
+  @media (min-width: 801px) {
+    /* line 18, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .projects {
+      margin-top: 135px;
+      margin-bottom: 100px; } }
+
+/* line 30, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.projects__header {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 2%;
+  padding-bottom: 16px; }
+  /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+  .projects__header:last-child {
+    margin-right: 0; }
+
+/* line 34, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.projects__item {
+  margin-bottom: 2%; }
+  @media (max-width: 800px) {
+    /* line 34, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .projects__item {
+      float: left;
+      clear: none;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 2%;
+      margin-bottom: 5%;
+      margin-right: 0%; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .projects__item:last-child {
+        margin-right: 0; } }
+  @media (min-width: 801px) and (max-width: 939px) {
+    /* line 34, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .projects__item {
+      float: left;
+      clear: none;
+      width: 49%;
+      margin-left: 0;
+      margin-right: 2%; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .projects__item:last-child {
+        margin-right: 0; }
+      /* line 44, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+      .projects__item:nth-child(2n) {
+        margin-right: 0%; } }
+  @media (min-width: 940px) {
+    /* line 34, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .projects__item {
+      float: left;
+      clear: none;
+      width: 32.0%;
+      margin-left: 0;
+      margin-right: 2%; }
+      /* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/jeet/_grid.scss */
+      .projects__item:last-child {
+        margin-right: 0; }
+      /* line 50, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+      .projects__item:nth-child(3n) {
+        margin-right: 0%; } }
+
+/* line 55, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project {
+  float: left;
+  position: relative;
+  height: auto; }
+  /* line 61, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+  .project:hover .project__overlay {
+    background-color: rgba(0, 0, 0, 0.4); }
+  /* line 64, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+  .project:hover .project__info {
+    margin-bottom: 10px; }
+
+/* line 69, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project__img-wrap {
+  position: relative;
+  background-color: #343531; }
+
+/* line 73, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project__img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+/* line 78, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: background-color 0.15s ease-in-out;
+  background-color: transparent; }
+
+/* line 87, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project__info {
+  position: absolute;
+  background-size: contain;
+  color: #ffffff;
+  transition: all 0.15s ease-in-out; }
+  @media (max-width: 800px) {
+    /* line 87, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__info {
+      margin-left: 20px;
+      bottom: 20px; } }
+  @media (min-width: 801px) and (max-width: 939px) {
+    /* line 87, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__info {
+      margin-left: 16px;
+      bottom: 16px; } }
+  @media (min-width: 940px) {
+    /* line 87, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__info {
+      margin-left: 20px;
+      bottom: 20px; } }
+
+/* line 106, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+.project__blurb {
+  padding-top: 5px;
+  line-height: 1.3; }
+  @media (max-width: 800px) {
+    /* line 106, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__blurb {
+      font-size: 14px; } }
+  @media (min-width: 801px) and (max-width: 939px) {
+    /* line 106, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__blurb {
+      font-size: 16px; } }
+  @media (min-width: 940px) {
+    /* line 106, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_home.scss */
+    .project__blurb {
+      font-size: 14px; } }
+
+/* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+.headshot {
+  background-size: contain;
+  border-radius: 50%;
+  background-image: url("/images/pineapple.jpg"); }
+  @media (max-width: 800px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+    .headshot {
+      width: 300px;
+      height: 300px;
+      margin: 80px auto 0 auto;
+      margin-bottom: 30px; } }
+  @media (min-width: 801px) and (max-width: 939px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+    .headshot {
+      margin-top: 90px;
+      float: left;
+      width: 300px;
+      height: 300px; } }
+  @media (min-width: 940px) {
+    /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+    .headshot {
+      margin-top: 90px;
+      float: left;
+      width: 340px;
+      height: 340px; } }
+
+/* line 26, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+.bio p {
+  padding-bottom: 24px; }
+@media (max-width: 800px) {
+  /* line 24, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+  .bio {
+    width: 100%; } }
+@media (min-width: 801px) {
+  /* line 24, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+  .bio {
+    float: left;
+    width: calc(100% - 410px);
+    margin-left: 70px;
+    margin-top: 108px; } }
+
+/* line 40, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+.contact {
+  margin-top: 20px; }
+  /* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+  .contact > li {
+    font-size: 14px;
+    padding: 5px 0; }
+  /* line 47, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_about.scss */
+  .contact i {
+    margin-right: 10px; }
+
+@media (max-width: 800px) {
+  /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-name {
+    margin-top: 80px; } }
+@media (min-width: 801px) {
+  /* line 1, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-name {
+    margin-top: 140px; } }
+
+/* line 9, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-details {
+  margin-top: 12px;
+  margin-bottom: 55px; }
+
+/* line 13, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-detail {
+  font-size: 14px;
+  line-height: 1.6; }
+  @media (min-width: 801px) {
+    /* line 13, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+    .proj-detail {
+      display: inline-block; }
+      /* line 18, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+      .proj-detail:after {
+        content: "|";
+        display: inline-block;
+        margin: 0 10px; }
+      /* line 24, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+      .proj-detail:last-child:after {
+        content: ""; } }
+
+/* line 30, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-header {
+  margin-top: 40px; }
+
+/* line 33, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-content {
+  margin-bottom: 160px; }
+  /* line 35, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-content .proj-image-wrap {
+    padding: 20px 0 20px 0; }
+  /* line 38, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-content h3 {
+    padding: 0 0 10px 0; }
+
+/* line 42, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-content p {
+  padding-bottom: 24px;
+  max-width: 450px; }
+
+@media (max-width: 800px) {
+  /* line 46, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-image-wrap {
+    width: 100%; } }
+
+/* line 51, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.proj-image {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%; }
+  /* line 56, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .proj-image img {
+    max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); }
+
+/* line 62, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.desktop img {
+  width: 1600px; }
+
+/* line 65, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.mobile img {
+  width: 320px; }
+
+/* line 68, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.tablet img {
+  width: 700px; }
+
+/* line 71, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.summary {
+  margin-top: 50px;
+  width: 50%; }
+
+/* line 75, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.comment {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 600; }
+  /* line 81, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .comment:before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 10px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    background-color: #343531; }
+
+/* line 91, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.next {
+  margin-top: 40px; }
+  /* line 94, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .next > * {
+    display: inline-block; }
+  @media (max-width: 800px) {
+    /* line 91, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+    .next {
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px; } }
+  @media (min-width: 801px) {
+    /* line 91, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+    .next {
+      display: inline-block;
+      float: right;
+      bottom: 60px; } }
+
+/* line 108, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.next__header {
+  font-size: 13px;
+  margin-bottom: 8px; }
+
+/* line 112, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.next__link {
+  margin-top: 8px;
+  font-size: 12px;
+  width: 100%;
+  display: inline-block; }
+
+/* line 118, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+.next__next {
+  min-height: 1px; }
+  /* line 119, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .next__next > * {
+    text-align: right; }
+  @media (max-width: 800px) {
+    /* line 118, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+    .next__next {
+      float: left;
+      padding-right: 10px; } }
+
+@media (max-width: 800px) {
+  /* line 129, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .next__next,
+  .next__prev {
+    width: 140px; } }
+
+@media (max-width: 800px) {
+  /* line 135, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .next__prev {
+    padding-left: 10px; } }
+@media (min-width: 801px) {
+  /* line 135, /Users/katiesoldau/Code/Portfolio/source/stylesheets/pages/_work.scss */
+  .next__prev {
+    margin-left: 30px; } }
