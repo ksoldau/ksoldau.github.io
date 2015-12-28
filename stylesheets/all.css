@@ -634,7 +634,7 @@ html, body {
       color: #343531; }
   /* line 126, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
   .nav__link:hover {
-    color: #fcb41d; }
+    color: #60b563; }
 
 /* line 130, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .footer, .page:after {
@@ -670,7 +670,7 @@ a {
   /* line 17, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
   a:hover {
     transition: color 0.15s ease-in-out;
-    color: #FFAD00; }
+    color: #4CAF50; }
 
 /* line 23, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_typography.scss */
 h1 {
