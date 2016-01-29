@@ -411,8 +411,12 @@ html, body {
   height: 100%;
   font-weight: 400; }
 
+/* line 9, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+a {
+  outline: none; }
+
 /* set up classes for jeet grid */
-/* line 11, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 13, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-1 {
   float: left;
   clear: none;
@@ -423,7 +427,7 @@ html, body {
   .col-1:last-child {
     margin-right: 0; }
 
-/* line 14, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 16, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-2 {
   float: left;
   clear: none;
@@ -434,7 +438,7 @@ html, body {
   .col-2:last-child {
     margin-right: 0; }
 
-/* line 17, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 19, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-3 {
   float: left;
   clear: none;
@@ -445,7 +449,7 @@ html, body {
   .col-3:last-child {
     margin-right: 0; }
 
-/* line 20, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 22, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-4 {
   float: left;
   clear: none;
@@ -456,7 +460,7 @@ html, body {
   .col-4:last-child {
     margin-right: 0; }
 
-/* line 23, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 25, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-5 {
   float: left;
   clear: none;
@@ -467,7 +471,7 @@ html, body {
   .col-5:last-child {
     margin-right: 0; }
 
-/* line 26, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 28, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-6 {
   float: left;
   clear: none;
@@ -478,7 +482,7 @@ html, body {
   .col-6:last-child {
     margin-right: 0; }
 
-/* line 29, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 31, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-7 {
   float: left;
   clear: none;
@@ -489,7 +493,7 @@ html, body {
   .col-7:last-child {
     margin-right: 0; }
 
-/* line 32, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 34, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-8 {
   float: left;
   clear: none;
@@ -500,7 +504,7 @@ html, body {
   .col-8:last-child {
     margin-right: 0; }
 
-/* line 35, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 37, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-9 {
   float: left;
   clear: none;
@@ -511,7 +515,7 @@ html, body {
   .col-9:last-child {
     margin-right: 0; }
 
-/* line 38, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 40, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-10 {
   float: left;
   clear: none;
@@ -522,7 +526,7 @@ html, body {
   .col-10:last-child {
     margin-right: 0; }
 
-/* line 41, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 43, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-11 {
   float: left;
   clear: none;
@@ -533,7 +537,7 @@ html, body {
   .col-11:last-child {
     margin-right: 0; }
 
-/* line 44, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 46, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .col-12 {
   float: left;
   clear: none;
@@ -545,11 +549,11 @@ html, body {
   .col-12:last-child {
     margin-right: 0; }
 
-/* line 48, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 50, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .edge {
   margin-right: 0; }
 
-/* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 55, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .page {
   position: relative;
   min-height: 100%;
@@ -558,89 +562,89 @@ html, body {
   margin-right: auto;
   width: 100%;
   max-width: 1000px; }
-  /* line 62, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  /* line 64, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
   .page:after {
     content: "";
     display: block; }
   @media (min-width: 1200px) {
-    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 55, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .page {
       padding: 30px 40px 60px 40px; } }
   @media (min-width: 801px) and (max-width: 1199px) {
-    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 55, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .page {
       padding: 30px 5% 60px 5%; } }
   @media (max-width: 800px) {
-    /* line 53, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 55, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .page {
       padding: 20px 5% 60px 5%; } }
 
-/* line 76, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 78, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .clear {
   clear: both; }
 
-/* line 80, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 82, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .nav {
   font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px;
   overflow: hidden; }
 
-/* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 88, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .nav__name {
   letter-spacing: 0.6px;
   font-size: 20px;
   text-decoration: none; }
-  /* line 90, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  /* line 92, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
   .nav__name:hover {
     color: #343531; }
   @media (max-width: 412px) {
-    /* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 88, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .nav__name {
       text-align: center;
       display: block;
       margin-bottom: 12px; } }
   @media (min-width: 413px) {
-    /* line 86, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 88, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .nav__name {
       float: left; } }
 
-/* line 102, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 104, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .nav__list {
   list-style: none;
   margin-top: 1px;
   text-align: right; }
   @media (max-width: 412px) {
-    /* line 102, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 104, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .nav__list {
       text-align: center; } }
 
-/* line 110, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 112, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .nav__item {
   display: inline-block;
   margin-left: 20px; }
 
-/* line 114, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 116, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .nav__link {
   text-decoration: none;
   font-weight: 700;
   color: #C4C2C2;
   transition: color 0.15s ease-in-out; }
-  /* line 120, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  /* line 122, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
   .nav__link.active {
     color: #343531; }
-    /* line 122, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+    /* line 124, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
     .nav__link.active:hover {
       color: #343531; }
-  /* line 126, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+  /* line 128, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
   .nav__link:hover {
     color: #60b563; }
 
-/* line 130, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 132, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .footer, .page:after {
   height: 60px; }
 
-/* line 133, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
+/* line 135, /Users/katiesoldau/Code/Portfolio/source/stylesheets/global/_global.scss */
 .footer {
   position: absolute;
   bottom: 0;
